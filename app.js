@@ -17,7 +17,7 @@ let commentRoutes = require("./routes/comments"),
 		authRoutes = require("./routes/index")
 
 mongoose.set('useUnifiedTopology', true)
-mongoose.connect("mongodb+srv://mgouw:Speedy@cluster0.mdapz.mongodb.net/<dbname>?retryWrites=true&w=majority", { 
+mongoose.connect("mongodb+srv://mgouw:Speedy@cluster0.mdapz.mongodb.net/yelp-camp_v11?retryWrites=true&w=majority", { 
 	useNewUrlParser: true,
 	useCreateIndex: true
 }).then(() => {
