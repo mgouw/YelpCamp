@@ -1,7 +1,5 @@
-INDEX    /campgrounds
-NEW      /campgrounds/new
-CREATE   /campgrounds 
-SHOW     /campgrounds/:id
+# YelpCamp
+YelpCamp is a web application that uses the MERN stack and is the final project in Colt Steele's [Web Development Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/).
 
-NEW      campgrounds/:id/comments/new 
-CREATE   campgrounds/:id/comments
+
+The application is is hosted at: http://blooming-depths-22726.herokuapp.com/
